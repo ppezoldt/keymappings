@@ -1,0 +1,40 @@
+[
+	{ "keys": ["ctrl+j"], "command": "jump_back" },
+	{ "keys": ["ctrl+k"], "command": "jump_forward" },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	{ "keys": ["f3"], "command": "find_next" },
+	{ "keys": ["shift+f3"], "command": "find_prev" },
+	{ "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+	{ "keys": ["ctrl+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["f4"], "command": "goto_symbol_in_project" },
+	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
+	{ "keys": ["ctrl+shift+a"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+l"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+alt+shift+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+alt+shift+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+	{ "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+	{ "keys": ["ctrl+shift+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+	{
+		"keys": ["ctrl+m", "ctrl+s"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+m", "ctrl+shift+s"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	}
+]
