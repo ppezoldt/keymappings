@@ -23,7 +23,7 @@ Download **.sublime-keymap** files and replace
 # Jetbrains Rider, Webstorm, etc
 Download **jetbrains_macos.jar** and import via File => Import Settings
 
-
+# Keymapping table
 
 
 |  |  |  |  |  |  |  |  |  |
